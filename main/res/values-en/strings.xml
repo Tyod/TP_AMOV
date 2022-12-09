@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amov_Tp</string>
+    <string name="nome_jogo">Reversi</string>
+    <string name="msg_brevemente">Available soon</string>
+    <string name="iniciar">Start</string>
+    <string name="editar_perfil">Edit Profile</string>
+    <string name="escolha_modo">Select one mode game</string>
+    <string name="modo1">Mode 1</string>
+    <string name="modo2">Mode 2</string>
+    <string name="modo3">Mode 3</string>
+    <string name="modos_jogo">"Game Modes: "</string>
+    <string name="vez">"Turn "</string>
+    <string name="ajuda_selecionada">Help Selected</string>
+    <string name="fim_jogo">END OF GAME</string>
+    <string name="vencedor_pecas_34">Winner is the player with the pieces 🔴!!</string>
+    <string name="vencedor_pecas_35">Winner is the player with the pieces 🔵 !!</string>
+    <string name="vencedor_pecas_36">Winner is the player with the pieces 🟢 !!</string>
+    <string name="vencedor">"The winner is "</string>
+    <string name="empate">Draw</string>
+    <string name="empateee">Draw !!</string>
+    <string name="empate_vermelho_azul">Draw between players \\uD83D\\uDD34 \\uD83D\\uDD35 !!</string>
+    <string name="empate_vermelho_verde">Draw between players \\uD83D\\uDD34 \\uD83D\\uDFE2 !!</string>
+    <string name="empate_azul_verde">Draw between players \\uD83D\\uDD35 \\uD83D\\uDFE2!!</string>
+    <string name="bomba_ja_jogada">You can only play the bomb once!</string>
+    <string name="bomba_selecionada">Bomb piece selected</string>
+    <string name="bomba_desselecionada">Bomb piece desselected</string>
+    <string name="posicao_invalida">Invalide position to play...</string>
+    <string name="selecione_peca_adversaria">Select the piece of the player to change</string>
+    <string name="limite_troca">You can only change pieces once!</string>
+    <string name="selecione_peca">Select two of your pieces to change for one of the opponent!</string>
+    <string name="selecione_adversaria">Select the opponent piece to change with yours!</string>
+    <string name="confirmar_troca">You are sure that you pretend to change the selected pieces?</string>
+    <string name="insira_nome">Insert your name</string>
+    <string name="sim">Yes</string>
+    <string name="guardar">Save</string>
+    <string name="selecionar_imagem">Select Image</string>
+    <string name="consultarTab">Consult Board</string>
+    <string name="novJog">New Game</string>
+    <string name="error_address">Address not recognized</string>
+    <string name="button_connect">Connect</string>
+    <string name="ask_ip">Server IP address:</string>
+    <string name="msg_ip_address">Server IP address: %s\nWaiting for a client...</string>
+    <string name="btn_emulator">Connect to emulator</string>
+    <string name="client_mode">Client mode</string>
+    <string name="server_mode">Server mode</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="vitoria">You win the game!</string>
+    <string name="derrota">You lose the game!</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="Password" translatable="false">Password</string>
+</resources>

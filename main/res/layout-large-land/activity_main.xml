@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDFD96"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image_1"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingTop="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_jogo"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/tommy"
+            android:textStyle="bold"
+            android:padding="15dp"
+            ></TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar"
+        android:fontFamily="@font/tommy"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="bottom"
+        android:padding="10dp"
+        android:backgroundTint="#896B49"
+        android:onClick="onEscolheModo"
+        />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_perfil"
+            android:fontFamily="@font/tommy"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="bottom"
+            android:padding="10dp"
+            android:backgroundTint="#896B49"
+            android:onClick="OnPerfil"
+            />
+    </LinearLayout>
+
+</LinearLayout>

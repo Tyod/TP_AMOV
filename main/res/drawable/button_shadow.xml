@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item >
+                <shape>
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+            <item >
+                <shape>
+                    <gradient android:angle="270"
+                        android:endColor="@color/FundoBotoesEspeciais" android:startColor="@color/FundoBotoesEspeciais" />
+                    <stroke android:width="2dp" android:color="#90EE90" />
+                    <corners android:radius="20dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

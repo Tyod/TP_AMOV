@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Amov_Tp</string>
+    <string name="nome_jogo">Reversi</string>
+    <string name="msg_brevemente">Disponível brevemente</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="escolha_modo">Escolha um Modo de Jogo: </string>
+    <string name="modo1">Modo 1</string>
+    <string name="modo2">Modo 2</string>
+    <string name="modo3">Modo 3</string>
+    <string name="modos_jogo">Modos de Jogo: </string>
+    <string name="vez">A jogar </string>
+    <string name="ajuda_selecionada">Ajuda selecionada</string>
+    <string name="fim_jogo">FIM DE JOGO</string>
+    <string name="vencedor_pecas_34">O vencedor do jogo é o jogador com as peças  🔴 !!</string>
+    <string name="vencedor_pecas_35">O vencedor do jogo é o jogador com as peças  🔵 !!</string>
+    <string name="vencedor_pecas_36">O vencedor do jogo é o jogador com as peças  🟢 !!</string>
+    <string name="vencedor">O vencedor é </string>
+    <string name="empate">Empate</string>
+    <string name="empateee">Empate !!</string>
+    <string name="empate_vermelho_azul">Empate entre os jogadores com as peças vermelhas e azuis!!</string>
+    <string name="empate_vermelho_verde">Empate entre os jogadores com as peças vermelhas e verdes!!</string>
+    <string name="empate_azul_verde">Empate entre os jogadores com as peças azuis e verdes!!</string>
+    <string name="bomba_ja_jogada">Só pode jogar a peça bomba uma vez!</string>
+    <string name="bomba_selecionada">Peça bomba selecionada</string>
+    <string name="bomba_desselecionada">Peça bomba desselecionada</string>
+    <string name="posicao_invalida">Posição invalida para jogar...</string>
+    <string name="selecione_peca_adversaria">Selecione a peça do adversário para trocar</string>
+    <string name="limite_troca">Só pode trocar peças uma vez!</string>
+    <string name="selecione_peca">Selecione duas das suas peças para trocar por uma do adversário! </string>
+    <string name="selecione_adversaria">Selecione a peça do adversário para trocar pelas suas peças! </string>
+    <string name="confirmar_troca">Tem a certeza que pretende trocar as peças selecionadas? </string>
+    <string name="insira_nome">Insira o seu nome</string>
+    <string name="sim">Sim</string>
+    <string name="guardar">Guardar</string>
+    <string name="selecionar_imagem">Selecionar Imagem</string>
+    <string name="consultarTab">Consultar Tabuleiro</string>
+    <string name="novJog">Novo Jogo</string>
+    <string name="error_address">Endereço não reconhecido</string>
+    <string name="button_connect">Ligar</string>
+    <string name="ask_ip">IP do servidor:</string>
+    <string name="msg_ip_address">IP do servidor: %s\nÀ espera de um cliente...</string>
+    <string name="btn_emulator">Ligar a um emulador</string>
+    <string name="client_mode">Modo Cliente</string>
+    <string name="server_mode">Modo Servidor</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="vitoria">Venceu o jogo!</string>
+    <string name="derrota">Perdeu o jogo!</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="Password" translatable="false">Password</string>
+</resources>

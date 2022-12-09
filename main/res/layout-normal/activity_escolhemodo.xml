@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBF9B5"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/escolha_modo"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="7dp"
+            android:textColor="#4B3901"
+            android:layout_marginTop="10dp"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/modo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="50dp"
+            android:onClick="onModo1">
+        </Button>
+
+        <Button
+            android:id="@+id/modo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo2"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="50dp"
+            android:onClick="onModo2">
+        </Button>
+
+        <Button
+            android:id="@+id/modo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modo3"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="50dp"
+            android:onClick="onModo3">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modos_jogo"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/textomodo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FCD146"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="19dp">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

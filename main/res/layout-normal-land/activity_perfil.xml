@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBF9B5"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Current Validation State"
+            android:id="@+id/validationState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="6dp"
+            android:background="#D2B48C"
+            android:textColor="@color/black"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_perfil"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+
+        /*<de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/avatar"/>*/
+
+        <Button
+            android:id="@+id/imagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:padding="8dp"
+            android:text="@string/selecionar_imagem"
+            android:textSize="8dp"
+            android:textStyle="bold"></Button>
+
+        <EditText
+            android:id="@+id/nome"
+            android:maxLines="1"
+            android:maxEms="20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/insira_nome"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="monospace"/>
+
+        <EditText
+            android:hint="@string/email"
+            android:id="@+id/edEmail"
+            android:maxLines="1"
+            android:maxEms="20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:hint="@string/Password"
+            android:id="@+id/edPassword"
+            android:maxLines="1"
+            android:maxEms="20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/registar"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Registar"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="5dp"
+                android:onClick="onRegistarEmail">
+            </Button>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Login"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_corner"
+                android:onClick="onAutenticarEmail">
+            </Button>
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Logout"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:onClick="onLogoutEmail">
+            </Button>
+
+            <Button
+                android:id="@+id/guardar"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Guardar"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="5dp"
+                android:onClick="onGuardar">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
